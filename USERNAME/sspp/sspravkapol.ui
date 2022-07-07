@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sspravkapol</class>
+ <widget class="QDialog" name="sspravkapol">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>385</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>продолжение пользовательской информации</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;MS Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;УДАЛЕНИЕ ПОЛЬЗОВАТЕЛЯ&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того, чтобы произвести удаление &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;пользователя и полностью всю информацию&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;о нем, нужно выделить любой элемент из &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;строки информации о пользователе и нажать&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;на кнопку &amp;quot;УДАЛЕНИЕ ПОЛЬЗОВАТЕЛЯ&amp;quot;.&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Далее,вся информация, находящаяся в&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;этой строке о пользователе исчезнет, а &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;сама строка станет пустой. и только после&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;перезагрузки приложения пустая строка &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;исчезнет и номера последующих строк тоже &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;изменится.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_2">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;MS Sans Serif&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;ОТПРАВКА ОТЧЕТА&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;Для того, чтобы отправить отчет о &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;проделанной работе в данной системе&lt;/p&gt;&lt;p align=&quot;center&quot;&gt; администрации, нужно ввести в каждое&lt;/p&gt;&lt;p align=&quot;center&quot;&gt; поле, соответсвующую информацию, &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;сказанную слева. После создается &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;текстовый документ, располоденный&lt;/p&gt;&lt;p align=&quot;center&quot;&gt; в папке DEBUG&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <spacer name="verticalSpacer_2">
+     <property name="orientation">
+      <enum>Qt::Vertical</enum>
+     </property>
+     <property name="sizeHint" stdset="0">
+      <size>
+       <width>20</width>
+       <height>40</height>
+      </size>
+     </property>
+    </spacer>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="font">
+      <font>
+       <family>MS Serif</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(0, 149, 0);</string>
+     </property>
+     <property name="text">
+      <string>НАЗАД</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>sspravkapol</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>305</x>
+     <y>683</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>326</x>
+     <y>652</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
