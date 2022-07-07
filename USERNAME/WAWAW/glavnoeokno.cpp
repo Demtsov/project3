@@ -44,7 +44,7 @@ void GLAVNOEOKNO::on_udPOLZ_clicked()
 void GLAVNOEOKNO::on_doPol_clicked()
 {
     ui->statusbar->showMessage("Пользователь добавлен...");
-    QMessageBox::information(this,"ДОБОВЛЕНИЕ ПОЛЬЗОВАТЕЛЯ.","Строка для заполнения информации о пользователе была успешно добавлена!");
+    QMessageBox::information(this,"ДОБАВЛЕНИЕ ПОЛЬЗОВАТЕЛЯ.","Строка для заполнения информации о пользователе была успешно добавлена!");
     model -> insertRow(model ->rowCount());
     ui->statusbar->showMessage(" ");
 }
